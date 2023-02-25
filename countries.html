@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        #all-countries{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+        .country{
+            border: 2px solid yellowgreen;
+            padding: 12px;
+            border-radius: 10px;
+            /* background-color: rgb(235, 198, 185); */
+            font-size: medium;
+
+        }
+        .capital{
+            color: rgb(99, 93, 93);
+            font-size: smaller;
+        }
+        .btn-details{
+            
+            font-size: small;
+            font-weight: bold;
+            color: rgb(171, 8, 185);
+            border-radius: 4px;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>All Countries</h1>
+    <section id="country-details">
+        
+    </section>
+
+    <section> 
+        <div id="all-countries">
+
+        </div>
+    </section>
+    
+    <!-- js -->
+    <script src="js/countries.js"></script>
+</body>
+</html>
